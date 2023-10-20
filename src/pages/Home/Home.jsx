@@ -5,9 +5,19 @@ import { HomeContainer } from './Home.styled'
 const Home = () => {
   return (
   <HomeContainer>
-    
+    <header>
+
     <img src={myFoto} alt='Developer Image face with blue background'/>
     <h1>Ya tienes la idea? <br/>Yo tengo las herramientas para materializarla! </h1>
+    </header>
+
+    <section>
+      <h2>SKILLS</h2>
+    </section>
+    
+    <section>
+    <h2>PROJECTS</h2>
+    </section>
     
   </HomeContainer>
     
