@@ -185,7 +185,7 @@ Error generating stack: `+o.message+`
         animation-delay: 5s;
         animation-duration: 30s;
     }
-`,yv=()=>{const e=new Array(11).fill(null);return O.jsx(mv,{children:e.map((t,n)=>O.jsx(gv,{},`${n}`))})},wv=()=>O.jsxs(pv,{children:[O.jsx(yv,{}),O.jsxs(hv,{children:[O.jsx("h3",{children:"PaZLo"}),O.jsx(dv,{})]}),O.jsx(Jm,{})]}),Sv=()=>O.jsx("h1",{children:"ContactMe"}),kv="/assets/myFoto-18759956.jpg",xv=Ft.main`
+`,yv=()=>{const e=new Array(11).fill(null);return O.jsx(mv,{children:e.map((t,n)=>O.jsx(gv,{},`${n}`))})},wv=()=>O.jsxs(pv,{children:[O.jsx(yv,{}),O.jsxs(hv,{children:[O.jsx("h3",{children:"PaZLo"}),O.jsx(dv,{})]}),O.jsx(Jm,{})]}),Sv=()=>O.jsx("h1",{children:"ContactMe"}),kv="/MySite/assets/myFoto-18759956.jpg",xv=Ft.main`
 display: flex;
 justify-content: center;
 align-items: center;
