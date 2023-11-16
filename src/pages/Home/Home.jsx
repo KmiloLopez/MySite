@@ -1,23 +1,28 @@
 import React from 'react'
 import myFoto from '../../../public/images/myFoto.jpg'
-import { HomeContainer } from './Home.styled'
+import { Header, HomeContainer, TextContent } from './Home.styled'
+import Skills from '../../components/Skills/Skills'
+import Projects from '../../components/Projects/Projects'
+import Social from '../../components/Social/Social'
 
 const Home = () => {
   return (
   <HomeContainer>
-    <header>
+    <section>
+      <h2>Nada mas satisfactorio que llevar una idea a la realidad</h2>
+    </section>
+    <Header>
 
     <img src={myFoto} alt='Developer Image face with blue background'/>
-    <h1>Ya tienes la idea? <br/>Yo tengo las herramientas para materializarla! </h1>
-    </header>
+    <TextContent>
 
-    <section>
-      <h2>SKILLS</h2>
-    </section>
-    
-    <section>
-    <h2>PROJECTS</h2>
-    </section>
+    <h1>Ya tienes la idea? <br/>Yo tengo las herramientas para materializarla! </h1>
+    </TextContent>
+    </Header>
+
+    <Skills/>
+    <Projects/>
+    <Social/>
     
   </HomeContainer>
     
