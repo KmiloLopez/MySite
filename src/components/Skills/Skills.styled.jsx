@@ -6,6 +6,9 @@ export const SkillContainer = styled.div`
     //background-color: aqua;
     border: 2px solid aqua;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 `
 export const  ImgStyle = styled.img`
