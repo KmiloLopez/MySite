@@ -1,32 +1,61 @@
-import React from 'react'
-import myFoto from '../../../public/images/myFoto.jpg'
-import { Header, HomeContainer, TextContent } from './Home.styled'
-import Skills from '../../components/Skills/Skills'
-import Projects from '../../components/Projects/Projects'
-import Social from '../../components/Social/Social'
+import React, { useState } from "react";
+
+import {
+  GhostBox,
+  Header,
+  Heroimg,
+  HomeContainer,
+  StyledH3,
+  TextContent,
+} from "./Home.styled";
+import Skills from "../../components/Skills/Skills";
+import Projects from "../../components/Projects/Projects";
+import Social from "../../components/Social/Social";
+import heroImage from "../../../assets/heroImage.png";
+import { Psychology } from "@mui/icons-material";
+import Philosophy from "../../components/Philosophy/Philosophy";
+import ThankYou from "../../components/ThankYou/ThankYou";
 
 const Home = () => {
+  const [showMessage, setShowMessage] = useState(false);
+
+  setTimeout(() => {
+    setShowMessage(true);
+  }, 5000);
+  //const waitfunc = () => {};
+
   return (
-  <HomeContainer>
-    <section>
-      <h2>Nada mas satisfactorio que llevar una idea a la realidad</h2>
-    </section>
-    <Header>
+    <>
+      {showMessage ? (
+        <StyledH3>
+          Nada mas satisfactorio que llevar una idea a la realidad
+        </StyledH3>
+      ) : (
+        <GhostBox />
+      )}
+      <HomeContainer>
+        {/* <Header> */}
+        <Heroimg
+          src={heroImage}
+          alt="Developer Image face with blue background"
+        />
 
-    <img src={myFoto} alt='Developer Image face with blue background'/>
-    <TextContent>
+        <TextContent>
+          <h1>
+            Ya tienes la idea? <br /> Yo tengo las herramientas para
+            materializarla!{" "}
+          </h1>
+        </TextContent>
+        {/* </Header> */}
+      </HomeContainer>
 
-    <h1>Ya tienes la idea? <br/>Yo tengo las herramientas para materializarla! </h1>
-    </TextContent>
-    </Header>
+      <Skills />
+      <Projects />
+      <Philosophy />
+      <ThankYou />
+      <Social />
+    </>
+  );
+};
 
-    <Skills/>
-    <Projects/>
-    <Social/>
-    
-  </HomeContainer>
-    
-  )
-}
-
-export default Home
+export default Home;

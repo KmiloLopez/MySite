@@ -1,16 +1,42 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { NavContainer } from "./NavBar.styled";
+import { Linkto, NavContainer } from "./NavBar.styled";
+import debounce from "lodash/debounce";
 
+const NavBar = () => {
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [showNav, setShowNav] = useState(true); // Por defecto muestra la barra de navegación
 
+  useEffect(() => {
+    const handleScroll = debounce(() => {
+      // Usa debounce para limitar la frecuencia de ejecución de la función
+      const currentScrollY = window.scrollY;
 
-const NavBar=()=>{
-    return(
-        <NavContainer>
-    <Link to="/Home">HOME</Link>
-    <Link to="/AboutMe">About Me</Link>
-    <Link to="/ContactMe">Contact Me</Link>
-        </NavContainer>
-    )
-}
+      if (currentScrollY > lastScrollY) {
+        // console.log("ocultando modal");
+        setShowNav(false);
+      } else {
+        //console.log("mostrando modal");
+        setShowNav(true);
+      }
+      setLastScrollY(currentScrollY);
+    }, 200); // Tiempo de espera del debounce
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // Limpia el event listener cuando el componente se desmonta
+    };
+  }, [lastScrollY]);
+  return (
+    <NavContainer className={`${showNav ? "visible" : "hidden"}`}>
+      <Link to="/Home">HOME</Link>
+      <Linkto href="#hero">Home</Linkto>
+      <Link to="/AboutMe">About Me</Link>
+      <Linkto href="#skills">Skills</Linkto>
+      <Linkto href="#projects">Experience</Linkto>
+      <Link to="/ContactMe">Contact Me</Link>
+    </NavContainer>
+  );
+};
 export default NavBar;

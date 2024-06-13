@@ -1,36 +1,85 @@
-import React from "react";
-import { dataprojects } from "../../../public/images/projects/dataprojects";
+import React, { useState } from "react";
+import { dataprojects } from "../../assets/images/projects/dataprojects";
 import {
-    ImgStyle,
-    ProjectContainer,
-    ProjectDescription,
-    ProjectDescriptionContainer,
-    ProjectsMainContainer,
+  AdInfoDesc,
+  AdInfoTitle,
+  AdditionalContainer,
+  ImgStyle,
+  ImgStyleDevice,
+  MyPojectsSection,
+  ProjectContainer,
+  ProjectTitle,
+  ProjectsMainContainer,
+  RelativeContainer,
+  StyledCloseIcon,
+  StyledParragraph,
 } from "./Projects.styled";
+import LinkToProject from "../linksprojects/LinkToProject";
+// import FrontendIcon from "../icons/frontend/FrontendIcon";
 
 const Projects = () => {
-    return (
-        <section>
-            <h2>PROJECTS</h2>
-            <ProjectsMainContainer>
-                {dataprojects.map((item, index) => {
-                    return (
-                        <ProjectContainer>
-                            <ImgStyle
-                                key={index}
-                                src={item.imgURL}
-                                alt={item.alt}></ImgStyle>
-                            <ProjectDescriptionContainer>
-                                
-                                <ProjectDescription>
-                                Las primeras expediciones de los conquistadores españoles en el territorio se llevaron a cabo en el litoral Atlántico en 1499, aunque el proceso de colonización se inició solamente en 1509.2​ Así entró en la región un nuevo factor que alteró el anterior panorama que se había venido desarrollando entre los pueblos indígenas. Con la llegada de los europeos al territorio de los Muiscas se inició un proceso de conquista y sojuzgamiento.3​ A medida que los españoles fueron avanzando, construyeron varios asentamientos, dispusieron un nuevo ordenamiento del territorio de acuerdo a los intereses de cada grupo conquistador.4​ Dicho ordenamiento respondía a los recursos que se encontraban en los asentamientos, proceso en el cual generalmente no se tuvo en cuenta la opinión de los pueblos que habitaban allí.4​ Estos establecimientos continuaron en los siguientes tres siglos con un proceso de expansión guerrera y colonizadora, introduciendo además una cantidad considerable de población negra africana como mano de obra esclava, avanzando sobre las poblaciones indígenas y de palenqueros que se vieron sometidos a periódicos desplazamientos.5​                                </ProjectDescription>
-                            </ProjectDescriptionContainer>
-                        </ProjectContainer>
-                    );
-                })}
-            </ProjectsMainContainer>
-        </section>
-    );
+  const [selectedIndex, setSelectedIndex] = useState(null);
+
+  const handleClick = (index) => {
+    setSelectedIndex(index);
+  };
+  const handleHideClick = (index) => {
+    setSelectedIndex(null);
+  };
+
+  return (
+    <MyPojectsSection id="projects">
+      {/* <h2>PROJECTS</h2>
+      <StyledParragraph>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium,
+        odit corporis! Velit incidunt quia esse. Id deleniti temporibus
+        reprehenderit, incidunt est mollitia, quo totam consectetur voluptatibus
+        ut possimus neque aliquam!
+      </StyledParragraph> */}
+
+      <ProjectsMainContainer>
+        <h1>PROJECTS</h1>
+        <StyledParragraph>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta
+          numquam ipsam, corporis, totam quae itaque odit placeat cumque aliquid
+          rem unde eum inventore, nisi asperiores libero! Et, at sequi.
+        </StyledParragraph>
+
+        {dataprojects.map((item, index) => {
+          return (
+            <>
+              <ProjectContainer key={index}>
+                <RelativeContainer>
+                  <ImgStyle
+                    onClick={() => handleClick(index)}
+                    src={item.imgURL}
+                    alt={item.alt}
+                  />
+
+                  <ImgStyleDevice
+                    className="img-device"
+                    src={item.imgURLdevice}
+                    alt={item.altdevice}
+                  />
+                  <ProjectTitle>{item.title}</ProjectTitle>
+                </RelativeContainer>
+              </ProjectContainer>
+              {selectedIndex === index && (
+                <AdditionalContainer>
+                  <AdInfoTitle>{item.title}</AdInfoTitle>
+                  <AdInfoDesc>{item.descript}</AdInfoDesc>
+
+                  <StyledCloseIcon onClick={handleHideClick} />
+
+                  <LinkToProject item={item} />
+                </AdditionalContainer>
+              )}
+            </>
+          );
+        })}
+      </ProjectsMainContainer>
+    </MyPojectsSection>
+  );
 };
 
 export default Projects;

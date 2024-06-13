@@ -1,27 +1,31 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import { Outlet } from "react-router-dom";
-import { HeaderContainer, SharedContainer } from "./SharedLayout.styled";
+import {
+  HeaderContainer,
+  LogoExplanation,
+  LogoTipo,
+  SharedContainer,
+} from "./SharedLayout.styled";
 import AnimatedBackground from "../AnimatedBackground/AnimatedBackground";
 
 const SharedLayout = () => {
-    return (
-        
-     
+  return (
+    <SharedContainer id="hero">
+      <AnimatedBackground />
+      <HeaderContainer>
+        <LogoTipo>CAMiLOPER</LogoTipo>
+        <LogoExplanation
+          className="name-expla"
+          src="../../src/assets/images/CamiName.png"
+          alt="Written name"
+        />
 
-        <SharedContainer>
-            <AnimatedBackground/>
-            <HeaderContainer>
-                <h3>PaZLo</h3>
-                <NavBar />
-            </HeaderContainer>
+        <NavBar />
+      </HeaderContainer>
 
-            
-                <Outlet />
-            
-                
-        </SharedContainer>
-     
-    );
+      <Outlet />
+    </SharedContainer>
+  );
 };
 export default SharedLayout;

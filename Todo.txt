@@ -1,0 +1,20 @@
+Images: Projects: 1346 x 735 px png
+
+
+1. contraste colores 
+2. info aditional icecream 
+3. que no queden los cortes de secciones rectos, agregar decoraciones
+4. QUITAR BOTONES INECESARIOS DEL NAVBAR Y AGRANDAR.
+
+
+
+me gusta programar y el arte, programar es arte
+
+
+ @media ${breakpoints.maxMobile} {
+    width: 95%;
+  }
+  @media ${breakpoints.tabletDimensions} {
+   width: 87%;
+  }
+
