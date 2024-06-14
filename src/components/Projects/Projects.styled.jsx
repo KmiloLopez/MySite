@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import KeyboardCapslockIcon from "@mui/icons-material/KeyboardCapslock";
-import { breakpoints } from "../../assets/sizes";
+import { breakpoints } from "../../../assets/sizes";
 
 export const ProjectContainer = styled.div`
   display: flex;
@@ -59,7 +59,7 @@ export const ProjectsMainContainer = styled.div`
     width: 95%;
   }
   @media ${breakpoints.tabletDimensions} {
-   width: 87%;
+    width: 87%;
   }
 `;
 export const ProjectDescriptionContainer = styled.div`

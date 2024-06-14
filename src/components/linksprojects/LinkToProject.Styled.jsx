@@ -2,7 +2,7 @@ import styled from "styled-components";
 import CodeIcon from "@mui/icons-material/Code";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
-import { breakpoints } from "../../assets/sizes";
+import { breakpoints } from "../../../assets/sizes";
 
 export const DirectLinksText = styled.p`
   text-align: center;

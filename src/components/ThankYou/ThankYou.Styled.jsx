@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { breakpoints } from "../../assets/sizes";
+import { breakpoints } from "../../../assets/sizes";
 
 export const ThankYouContainer = styled.section`
   display: flex;
@@ -12,7 +12,7 @@ export const ThankYouContainer = styled.section`
     width: 95%;
   }
   @media ${breakpoints.tabletDimensions} {
-   width: 87%;
+    width: 87%;
   }
 `;
 

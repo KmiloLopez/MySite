@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { breakpoints } from "../../assets/sizes";
+import { breakpoints } from "../../../assets/sizes";
 const fadeOut = keyframes`
   to {
     opacity: 0;

@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { breakpoints } from "../../assets/sizes";
+import { breakpoints } from "../../../assets/sizes";
 
 export const SkillsMainContainer = styled.div`
   width: 80%;
@@ -11,7 +11,7 @@ export const SkillsMainContainer = styled.div`
     width: 95%;
   }
   @media ${breakpoints.tabletDimensions} {
-   width: 87%;
+    width: 87%;
   }
 `;
 export const BackgroundContainer = styled.div`

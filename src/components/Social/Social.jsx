@@ -8,7 +8,7 @@ import {
   Sociallinks,
   SubContainer,
 } from "./Social.styled";
-import { datacontacts } from "../../assets/images/contacts/datacontacts";
+import { datacontacts } from "../../../assets/images/contacts/datacontacts";
 
 const Social = () => {
   return (

@@ -15,7 +15,7 @@ import {
   SkillsMainContainer,
   StyledP,
 } from "./Skills.styled";
-import { dataskills } from "../../assets/images/skills/dataskills";
+import { dataskills } from "../../../assets/images/skills/dataskills";
 import BackendIcon from "../icons/backend/BackendIcon";
 import DesignerIcon from "../icons/designer/DesignerIcon";
 import FrontendIcon from "../icons/frontend/FrontendIcon";

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { breakpoints } from "../../assets/sizes";
+import { breakpoints } from "../../../assets/sizes";
 
 export const MySection = styled.section`
   background-color: var(--color-background-2);
