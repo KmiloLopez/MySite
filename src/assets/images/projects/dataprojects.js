@@ -1,7 +1,9 @@
 export const dataprojects = [
   {
+    // import heroImage from "../../../assets/heroImage.png";
     id: 1,
-    imgURL: "src/assets/images/projects/ice2.png",
+    imgURL: "../../images/projects/ice2.png",
+    //imgURL: "src/assets/images/projects/ice2.png",
     alt: "IceCream website homepage",
     imgURLdevice: "src/assets/images/projects/device/icephone.png",
     altdevice: "IceCream website homepage on a cell phone device",
