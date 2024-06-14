@@ -3,8 +3,10 @@ export const dataprojects = [
     // import heroImage from "../../../assets/heroImage.png";
     //https://kmilolopez.github.io/MySite/assets/heroImage-02ae8afe.png
     id: 1,
+    // imgURL:
+    //   "https://kmilolopez.github.io/MySite/assets/images/projects/ice2.png",
     imgURL:
-      "https://kmilolopez.github.io/MySite/assets/images/projects/ice2.png",
+      "https://github.com/KmiloLopez/MySite/blob/master/assets/images/projects/ice2.png",
     //imgURL: "src/assets/images/projects/ice2.png",
     alt: "IceCream website homepage",
     imgURLdevice: "src/assets/images/projects/device/icephone.png",
