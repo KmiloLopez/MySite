@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
 import { dataprojects } from "/MySite/assets/images/projects/dataprojects.js";
-=======
-import { dataprojects } from "/MySite/assets/images/projects/dataprojects";
->>>>>>> 9bd575c2b9f3c35d585031514037a133022a94de
 
 import {
   AdInfoDesc,
