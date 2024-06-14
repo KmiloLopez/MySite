@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { dataprojects } from "/MySite/assets/images/projects/dataprojects.js";
+import { dataprojects } from "./../../assets/images/projects/dataprojects.js";
 
 import {
   AdInfoDesc,
