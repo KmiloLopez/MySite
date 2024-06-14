@@ -672,7 +672,7 @@ Error generating stack: `+i.message+`
   color: var(--color-neon-dark-blue);
 
   text-decoration: none;
-`,k8=({item:e})=>v.jsxs(v.Fragment,{children:[v.jsx(m8,{children:"Direct links:"}),v.jsxs(im,{children:[e.codeLink&&v.jsx(Eu,{children:v.jsxs(S8,{href:e.codeLink,target:"_blank",rel:"noopener noreferrer",children:[v.jsx(y8,{}),v.jsx(x8,{className:"git-text",children:"Let's see the code"})]})}),e.siteLink&&v.jsx(Eu,{children:v.jsxs(v8,{href:e.siteLink,target:"_blank",rel:"noopener noreferrer",children:[v.jsx(g8,{}),v.jsx(w8,{className:"site-text",children:"Let's check how it looks"})]})})]})]}),C8=()=>{const[e,t]=$.useState(null),n=o=>{t(o)},r=o=>{t(null)};return v.jsx(J6,{id:"projects",children:v.jsxs(G6,{children:[v.jsx("h1",{children:"PROJECTS"}),v.jsx(e8,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta numquam ipsam, corporis, totam quae itaque odit placeat cumque aliquid rem unde eum inventore, nisi asperiores libero! Et, at sequi."}),v.jsx("img",{src:"../../assets/images/projects/ice2.png",alt:"dfasdf"}),y4.map((o,i)=>v.jsxs(v.Fragment,{children:[v.jsx(H6,{children:v.jsxs(t8,{children:[v.jsx(V6,{onClick:()=>n(i),src:o.imgURL,alt:o.alt}),v.jsx(K6,{className:"img-device",src:o.imgURLdevice,alt:o.altdevice}),v.jsx(Q6,{children:o.title})]})},i),e===i&&v.jsxs(Y6,{children:[v.jsx(Z6,{children:o.title}),v.jsx(q6,{children:o.descript}),v.jsx(X6,{onClick:r}),v.jsx(k8,{item:o})]})]}))]})})},$8=[{id:2,imgURL:"images/contacts/github.png",alt:"Illustrator logo",codeLink:"https://github.com/KmiloLopez?tab=repositories"},{id:2,imgURL:"images/contacts/linkin.png",alt:"linkin logo",codeLink:"https://www.linkedin.com/in/camilo-andres-lopez-112317244/"},{id:2,imgURL:"images/contacts/whatsapp.png",alt:"whatsap logo",codeLink:"https://wa.me/573004298855"}],E8=()=>v.jsxs(im,{children:[v.jsxs(n8,{children:[v.jsx(i8,{children:v.jsx("h2",{children:"Contact me at: "})}),v.jsx(r8,{children:$8.map((e,t)=>v.jsx(Eu,{children:v.jsx("a",{href:e.codeLink,target:"_blank",rel:"noopener noreferrer",children:v.jsx(o8,{src:e.imgURL,alt:e.alt})})},t))})]}),v.jsx(l8,{href:"../../assets/CAMIC.pdf",download:!0,children:v.jsx(s8,{children:"Download CV"})})]}),_8="https://kmilolopez.github.io/MySite/assets/heroImage-02ae8afe.png",P8=j.section`
+`,k8=({item:e})=>v.jsxs(v.Fragment,{children:[v.jsx(m8,{children:"Direct links:"}),v.jsxs(im,{children:[e.codeLink&&v.jsx(Eu,{children:v.jsxs(S8,{href:e.codeLink,target:"_blank",rel:"noopener noreferrer",children:[v.jsx(y8,{}),v.jsx(x8,{className:"git-text",children:"Let's see the code"})]})}),e.siteLink&&v.jsx(Eu,{children:v.jsxs(v8,{href:e.siteLink,target:"_blank",rel:"noopener noreferrer",children:[v.jsx(g8,{}),v.jsx(w8,{className:"site-text",children:"Let's check how it looks"})]})})]})]}),C8="https://kmilolopez.github.io/MySite/assets/ice2-b8dc0c52.png",$8=()=>{const[e,t]=$.useState(null),n=o=>{t(o)},r=o=>{t(null)};return v.jsx(J6,{id:"projects",children:v.jsxs(G6,{children:[v.jsx("h1",{children:"PROJECTS"}),v.jsx(e8,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta numquam ipsam, corporis, totam quae itaque odit placeat cumque aliquid rem unde eum inventore, nisi asperiores libero! Et, at sequi."}),v.jsx("img",{src:C8,alt:"dfasdf"}),y4.map((o,i)=>v.jsxs(v.Fragment,{children:[v.jsx(H6,{children:v.jsxs(t8,{children:[v.jsx(V6,{onClick:()=>n(i),src:o.imgURL,alt:o.alt}),v.jsx(K6,{className:"img-device",src:o.imgURLdevice,alt:o.altdevice}),v.jsx(Q6,{children:o.title})]})},i),e===i&&v.jsxs(Y6,{children:[v.jsx(Z6,{children:o.title}),v.jsx(q6,{children:o.descript}),v.jsx(X6,{onClick:r}),v.jsx(k8,{item:o})]})]}))]})})},E8=[{id:2,imgURL:"images/contacts/github.png",alt:"Illustrator logo",codeLink:"https://github.com/KmiloLopez?tab=repositories"},{id:2,imgURL:"images/contacts/linkin.png",alt:"linkin logo",codeLink:"https://www.linkedin.com/in/camilo-andres-lopez-112317244/"},{id:2,imgURL:"images/contacts/whatsapp.png",alt:"whatsap logo",codeLink:"https://wa.me/573004298855"}],_8=()=>v.jsxs(im,{children:[v.jsxs(n8,{children:[v.jsx(i8,{children:v.jsx("h2",{children:"Contact me at: "})}),v.jsx(r8,{children:E8.map((e,t)=>v.jsx(Eu,{children:v.jsx("a",{href:e.codeLink,target:"_blank",rel:"noopener noreferrer",children:v.jsx(o8,{src:e.imgURL,alt:e.alt})})},t))})]}),v.jsx(l8,{href:"../../assets/CAMIC.pdf",download:!0,children:v.jsx(s8,{children:"Download CV"})})]}),P8="https://kmilolopez.github.io/MySite/assets/heroImage-02ae8afe.png",j8=j.section`
   background-color: var(--color-background-2);
   width: 100%;
   display: flex;
@@ -692,15 +692,15 @@ Error generating stack: `+i.message+`
   @media ${A.tabletDimensions} {
     flex-direction: column;
   }
-`,j8=j.div`
+`,T8=j.div`
   display: flex;
   align-items: center;
-`,T8=j.div`
+`,R8=j.div`
   display: flex;
   align-items: center;
 `,ap=j.img`
   width: 500px;
-`,R8=j.h3`
+`,O8=j.h3`
   margin-top: 25px;
   margin-bottom: 25px;
   width: 80%;
@@ -710,7 +710,7 @@ Error generating stack: `+i.message+`
   @media ${A.tabletDimensions} {
     width: 87%;
   }
-`,O8=()=>v.jsxs(P8,{children:[v.jsx("h2",{children:"CamiLoper Phylosophy"}),v.jsx(R8,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur."}),v.jsxs(sp,{children:[v.jsx(j8,{children:v.jsx("h3",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur asperiores iste accusantium? Rerum ex cupiditate ullam repellat nihil vel, veritatis quasi doloremque quas."})}),v.jsx(ap,{src:"../../../src/assets/images/philosophy/thinkingmeleft.png",alt:"thinking man with thoughts behind"})]}),v.jsxs(sp,{children:[v.jsx(ap,{src:"../../../src/assets/images/philosophy/thinkingmeright.png",alt:"thinking man with thoughts behind"}),v.jsx(T8,{children:v.jsx("h3",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur asperiores iste accusantium? Rerum ex cupiditate ullam repellat nihil vel, veritatis quasi doloremque quas."})})]})]}),b8=j.section`
+`,b8=()=>v.jsxs(j8,{children:[v.jsx("h2",{children:"CamiLoper Phylosophy"}),v.jsx(O8,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur."}),v.jsxs(sp,{children:[v.jsx(T8,{children:v.jsx("h3",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur asperiores iste accusantium? Rerum ex cupiditate ullam repellat nihil vel, veritatis quasi doloremque quas."})}),v.jsx(ap,{src:"../../../src/assets/images/philosophy/thinkingmeleft.png",alt:"thinking man with thoughts behind"})]}),v.jsxs(sp,{children:[v.jsx(ap,{src:"../../../src/assets/images/philosophy/thinkingmeright.png",alt:"thinking man with thoughts behind"}),v.jsx(R8,{children:v.jsx("h3",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur asperiores iste accusantium? Rerum ex cupiditate ullam repellat nihil vel, veritatis quasi doloremque quas."})})]})]}),M8=j.section`
   display: flex;
   flex-direction: column;
 
@@ -732,15 +732,15 @@ Error generating stack: `+i.message+`
   @media ${A.maxMobile} {
     font-size: 50px;
   }
-`,M8=j.div`
+`,I8=j.div`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-`,I8=j.h5`
+`,L8=j.h5`
   display: flex;
   align-items: center;
   @media ${A.maxMobile} {
     font-size: 17px;
   }
-`,L8=()=>v.jsxs(b8,{children:[v.jsx(ha,{children:"Thank you"}),v.jsxs(M8,{children:[v.jsx(ha,{children:"for"}),v.jsx(I8,{children:"I wish you a pleasant day."})]}),v.jsx(ha,{children:"Your time!"})]}),up=()=>{const[e,t]=$.useState(!1);return setTimeout(()=>{t(!0)},5e3),v.jsxs(v.Fragment,{children:[e?v.jsx(e4,{children:"Nada mas satisfactorio que llevar una idea a la realidad"}):v.jsx(J3,{}),v.jsxs(Z3,{children:[v.jsx(q3,{src:_8,alt:"Developer Image face with blue background"}),v.jsx(X3,{children:v.jsxs("h1",{children:["Ya tienes la idea? ",v.jsx("br",{})," Yo tengo las herramientas para materializarla!"," "]})})]}),v.jsx(g4,{}),v.jsx(C8,{}),v.jsx(O8,{}),v.jsx(L8,{}),v.jsx(E8,{})]})};function z8(){return v.jsx(v.Fragment,{children:v.jsx(_2,{children:v.jsxs(Yn,{path:"/",element:v.jsx(Q3,{}),children:[v.jsx(Yn,{path:"/Home",element:v.jsx(up,{})}),v.jsx(Yn,{path:"/AboutMe",element:v.jsx(z2,{})}),v.jsx(Yn,{path:"/ContactMe",element:v.jsx(Y3,{})}),v.jsx(Yn,{path:"*",element:v.jsx(up,{})})]})})})}ma.createRoot(document.getElementById("root")).render(v.jsx(In.StrictMode,{children:v.jsx(b2,{children:v.jsx(z8,{})})}));
+`,z8=()=>v.jsxs(M8,{children:[v.jsx(ha,{children:"Thank you"}),v.jsxs(I8,{children:[v.jsx(ha,{children:"for"}),v.jsx(L8,{children:"I wish you a pleasant day."})]}),v.jsx(ha,{children:"Your time!"})]}),up=()=>{const[e,t]=$.useState(!1);return setTimeout(()=>{t(!0)},5e3),v.jsxs(v.Fragment,{children:[e?v.jsx(e4,{children:"Nada mas satisfactorio que llevar una idea a la realidad"}):v.jsx(J3,{}),v.jsxs(Z3,{children:[v.jsx(q3,{src:P8,alt:"Developer Image face with blue background"}),v.jsx(X3,{children:v.jsxs("h1",{children:["Ya tienes la idea? ",v.jsx("br",{})," Yo tengo las herramientas para materializarla!"," "]})})]}),v.jsx(g4,{}),v.jsx($8,{}),v.jsx(b8,{}),v.jsx(z8,{}),v.jsx(_8,{})]})};function N8(){return v.jsx(v.Fragment,{children:v.jsx(_2,{children:v.jsxs(Yn,{path:"/",element:v.jsx(Q3,{}),children:[v.jsx(Yn,{path:"/Home",element:v.jsx(up,{})}),v.jsx(Yn,{path:"/AboutMe",element:v.jsx(z2,{})}),v.jsx(Yn,{path:"/ContactMe",element:v.jsx(Y3,{})}),v.jsx(Yn,{path:"*",element:v.jsx(up,{})})]})})})}ma.createRoot(document.getElementById("root")).render(v.jsx(In.StrictMode,{children:v.jsx(b2,{children:v.jsx(N8,{})})}));
