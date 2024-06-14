@@ -60,7 +60,7 @@ const Projects = () => {
         </StyledParragraph>
 
         <>
-          <ProjectContainer key={index}>
+          <ProjectContainer>
             <RelativeContainer>
               <ImgStyle onClick={() => handleClick1()} src={ice2} alt="some" />
 
