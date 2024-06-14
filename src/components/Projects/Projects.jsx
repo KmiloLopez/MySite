@@ -16,6 +16,8 @@ import {
   StyledParragraph,
 } from "./Projects.styled";
 import LinkToProject from "../linksprojects/LinkToProject";
+import imagendo from "../../assets/images/projects/ice2.png";
+
 // import FrontendIcon from "../icons/frontend/FrontendIcon";
 
 const Projects = () => {
@@ -45,7 +47,7 @@ const Projects = () => {
           numquam ipsam, corporis, totam quae itaque odit placeat cumque aliquid
           rem unde eum inventore, nisi asperiores libero! Et, at sequi.
         </StyledParragraph>
-        <img src="../../assets/images/projects/ice2.png" alt="dfasdf" />
+        <img src={imagendo} alt="dfasdf" />
 
         {dataprojects.map((item, index) => {
           return (
