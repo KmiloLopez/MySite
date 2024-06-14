@@ -287,7 +287,7 @@ Error generating stack: `+i.message+`
     width: 95%;
   }
   @media ${A.tabletDimensions} {
-   width: 87%;
+    width: 87%;
   }
 `,n4=j.div`
   background-color: #caceca;
@@ -454,7 +454,7 @@ Error generating stack: `+i.message+`
     width: 95%;
   }
   @media ${A.tabletDimensions} {
-   width: 87%;
+    width: 87%;
   }
 `;j.div`
   border: 1px solid #ccc;
@@ -721,7 +721,7 @@ Error generating stack: `+i.message+`
     width: 95%;
   }
   @media ${A.tabletDimensions} {
-   width: 87%;
+    width: 87%;
   }
 `,ha=j.p`
   font-family: Merriweather;
