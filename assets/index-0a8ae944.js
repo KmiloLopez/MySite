@@ -609,7 +609,7 @@ Error generating stack: `+i.message+`
   margin-top: 20px;
   font-size: 18px;
   color: grey;
-`;j(am)`
+`,m8=j(am)`
   margin-top: 12px;
   font-size: 3rem !important;
   &:hover {
@@ -620,7 +620,7 @@ Error generating stack: `+i.message+`
     display: inline-block;
     color: var(--primary);
   }
-`;const m8=j(lm)`
+`,g8=j(lm)`
   margin-top: 12px;
   font-size: 3rem !important;
   &:hover {
@@ -631,13 +631,13 @@ Error generating stack: `+i.message+`
     display: block;
     color: var(--primary);
   }
-`,g8=j.a`
+`,y8=j.a`
   cursor: pointer;
   font-size: 36px;
   color: var(--color-neon-dark-blue);
 
   text-decoration: none;
-`,y8=j.p`
+`,v8=j.p`
   display: none;
   font-size: 1.5rem;
   position: absolute;
@@ -651,7 +651,7 @@ Error generating stack: `+i.message+`
     font-size: 1rem;
     left: 140px;
   }
-`,v8=j.p`
+`,x8=j.p`
   display: none;
   font-size: 1.5rem;
   position: absolute;
@@ -665,14 +665,14 @@ Error generating stack: `+i.message+`
     font-size: 1rem;
     right: 80px;
   }
-`,x8=j.a`
+`,w8=j.a`
   cursor: pointer;
   font-size: 36px;
   //color: var(--color-neon-dark-blue);
   color: var(--color-neon-dark-blue);
 
   text-decoration: none;
-`,w8="https://kmilolopez.github.io/MySite/assets/ice2-b8dc0c52.png",S8="https://kmilolopez.github.io/MySite/assets/icephone-7fcb1430.png",k8=()=>{const[e,t]=$.useState(!1),n=()=>{t(!e)},r=()=>{t(!1)};return v.jsx(Xw,{id:"projects",children:v.jsxs(Kw,{children:[v.jsx("h1",{children:"PROJECTS"}),v.jsx(Jw,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta numquam ipsam, corporis, totam quae itaque odit placeat cumque aliquid rem unde eum inventore, nisi asperiores libero! Et, at sequi."}),v.jsxs(v.Fragment,{children:[v.jsx(Ww,{children:v.jsxs(e8,{children:[v.jsx(Hw,{onClick:()=>n(),src:w8,alt:"some"}),v.jsx(Vw,{className:"img-device",src:S8,alt:"sea"}),v.jsx(Gw,{children:"IceCream Landing Page"})]})}),e===!0&&v.jsxs(Qw,{children:[v.jsx(Yw,{children:"IceCream Landing Page"}),v.jsx(Zw,{children:"Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project."}),v.jsx(qw,{onClick:r}),v.jsx(h8,{children:"Direct links:"}),v.jsxs(im,{children:[v.jsx(Eu,{children:v.jsxs(x8,{href:"https://github.com/KmiloLopez/Proyect-IceCream",target:"_blank",rel:"noopener noreferrer",children:[v.jsx(m8,{}),v.jsx(y8,{className:"git-text",children:"Let's see the code"})]})}),v.jsx(Eu,{children:v.jsxs(g8,{href:"https://jorgemomo.github.io/iceCream/",target:"_blank",rel:"noopener noreferrer",children:[v.jsx(IMGStyleWebSite,{}),v.jsx(v8,{className:"site-text",children:"Let's check how it looks"})]})})]})]})]})]})})},C8=[{id:2,imgURL:"images/contacts/github.png",alt:"Illustrator logo",codeLink:"https://github.com/KmiloLopez?tab=repositories"},{id:2,imgURL:"images/contacts/linkin.png",alt:"linkin logo",codeLink:"https://www.linkedin.com/in/camilo-andres-lopez-112317244/"},{id:2,imgURL:"images/contacts/whatsapp.png",alt:"whatsap logo",codeLink:"https://wa.me/573004298855"}],$8=()=>v.jsxs(im,{children:[v.jsxs(t8,{children:[v.jsx(o8,{children:v.jsx("h2",{children:"Contact me at: "})}),v.jsx(n8,{children:C8.map((e,t)=>v.jsx(Eu,{children:v.jsx("a",{href:e.codeLink,target:"_blank",rel:"noopener noreferrer",children:v.jsx(r8,{src:e.imgURL,alt:e.alt})})},t))})]}),v.jsx(i8,{href:"../../assets/CAMIC.pdf",download:!0,children:v.jsx(l8,{children:"Download CV"})})]}),E8="https://kmilolopez.github.io/MySite/assets/heroImage-02ae8afe.png",_8=j.section`
+`,S8="https://kmilolopez.github.io/MySite/assets/ice2-b8dc0c52.png",k8="https://kmilolopez.github.io/MySite/assets/icephone-7fcb1430.png",C8=()=>{const[e,t]=$.useState(!1),n=()=>{t(!e)},r=()=>{t(!1)};return v.jsx(Xw,{id:"projects",children:v.jsxs(Kw,{children:[v.jsx("h1",{children:"PROJECTS"}),v.jsx(Jw,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta numquam ipsam, corporis, totam quae itaque odit placeat cumque aliquid rem unde eum inventore, nisi asperiores libero! Et, at sequi."}),v.jsxs(v.Fragment,{children:[v.jsx(Ww,{children:v.jsxs(e8,{children:[v.jsx(Hw,{onClick:()=>n(),src:S8,alt:"some"}),v.jsx(Vw,{className:"img-device",src:k8,alt:"sea"}),v.jsx(Gw,{children:"IceCream Landing Page"})]})}),e===!0&&v.jsxs(Qw,{children:[v.jsx(Yw,{children:"IceCream Landing Page"}),v.jsx(Zw,{children:"Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project."}),v.jsx(qw,{onClick:r}),v.jsx(h8,{children:"Direct links:"}),v.jsxs(im,{children:[v.jsx(Eu,{children:v.jsxs(w8,{href:"https://github.com/KmiloLopez/Proyect-IceCream",target:"_blank",rel:"noopener noreferrer",children:[v.jsx(g8,{}),v.jsx(v8,{className:"git-text",children:"Let's see the code"})]})}),v.jsx(Eu,{children:v.jsxs(y8,{href:"https://jorgemomo.github.io/iceCream/",target:"_blank",rel:"noopener noreferrer",children:[v.jsx(m8,{}),v.jsx(x8,{className:"site-text",children:"Let's check how it looks"})]})})]})]})]})]})})},$8=[{id:2,imgURL:"images/contacts/github.png",alt:"Illustrator logo",codeLink:"https://github.com/KmiloLopez?tab=repositories"},{id:2,imgURL:"images/contacts/linkin.png",alt:"linkin logo",codeLink:"https://www.linkedin.com/in/camilo-andres-lopez-112317244/"},{id:2,imgURL:"images/contacts/whatsapp.png",alt:"whatsap logo",codeLink:"https://wa.me/573004298855"}],E8=()=>v.jsxs(im,{children:[v.jsxs(t8,{children:[v.jsx(o8,{children:v.jsx("h2",{children:"Contact me at: "})}),v.jsx(n8,{children:$8.map((e,t)=>v.jsx(Eu,{children:v.jsx("a",{href:e.codeLink,target:"_blank",rel:"noopener noreferrer",children:v.jsx(r8,{src:e.imgURL,alt:e.alt})})},t))})]}),v.jsx(i8,{href:"../../assets/CAMIC.pdf",download:!0,children:v.jsx(l8,{children:"Download CV"})})]}),_8="https://kmilolopez.github.io/MySite/assets/heroImage-02ae8afe.png",P8=j.section`
   background-color: var(--color-background-2);
   width: 100%;
   display: flex;
@@ -692,15 +692,15 @@ Error generating stack: `+i.message+`
   @media ${A.tabletDimensions} {
     flex-direction: column;
   }
-`,P8=j.div`
+`,j8=j.div`
   display: flex;
   align-items: center;
-`,j8=j.div`
+`,T8=j.div`
   display: flex;
   align-items: center;
 `,ap=j.img`
   width: 500px;
-`,T8=j.h3`
+`,R8=j.h3`
   margin-top: 25px;
   margin-bottom: 25px;
   width: 80%;
@@ -710,7 +710,7 @@ Error generating stack: `+i.message+`
   @media ${A.tabletDimensions} {
     width: 87%;
   }
-`,R8=()=>v.jsxs(_8,{children:[v.jsx("h2",{children:"CamiLoper Phylosophy"}),v.jsx(T8,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur."}),v.jsxs(sp,{children:[v.jsx(P8,{children:v.jsx("h3",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur asperiores iste accusantium? Rerum ex cupiditate ullam repellat nihil vel, veritatis quasi doloremque quas."})}),v.jsx(ap,{src:"../../../src/assets/images/philosophy/thinkingmeleft.png",alt:"thinking man with thoughts behind"})]}),v.jsxs(sp,{children:[v.jsx(ap,{src:"../../../src/assets/images/philosophy/thinkingmeright.png",alt:"thinking man with thoughts behind"}),v.jsx(j8,{children:v.jsx("h3",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur asperiores iste accusantium? Rerum ex cupiditate ullam repellat nihil vel, veritatis quasi doloremque quas."})})]})]}),O8=j.section`
+`,O8=()=>v.jsxs(P8,{children:[v.jsx("h2",{children:"CamiLoper Phylosophy"}),v.jsx(R8,{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur."}),v.jsxs(sp,{children:[v.jsx(j8,{children:v.jsx("h3",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur asperiores iste accusantium? Rerum ex cupiditate ullam repellat nihil vel, veritatis quasi doloremque quas."})}),v.jsx(ap,{src:"../../../src/assets/images/philosophy/thinkingmeleft.png",alt:"thinking man with thoughts behind"})]}),v.jsxs(sp,{children:[v.jsx(ap,{src:"../../../src/assets/images/philosophy/thinkingmeright.png",alt:"thinking man with thoughts behind"}),v.jsx(T8,{children:v.jsx("h3",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum quisquam ullam laudantium eveniet voluptatem pariatur asperiores iste accusantium? Rerum ex cupiditate ullam repellat nihil vel, veritatis quasi doloremque quas."})})]})]}),b8=j.section`
   display: flex;
   flex-direction: column;
 
@@ -732,15 +732,15 @@ Error generating stack: `+i.message+`
   @media ${A.maxMobile} {
     font-size: 50px;
   }
-`,b8=j.div`
+`,M8=j.div`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-`,M8=j.h5`
+`,I8=j.h5`
   display: flex;
   align-items: center;
   @media ${A.maxMobile} {
     font-size: 17px;
   }
-`,I8=()=>v.jsxs(O8,{children:[v.jsx(ha,{children:"Thank you"}),v.jsxs(b8,{children:[v.jsx(ha,{children:"for"}),v.jsx(M8,{children:"I wish you a pleasant day."})]}),v.jsx(ha,{children:"Your time!"})]}),up=()=>{const[e,t]=$.useState(!1);return setTimeout(()=>{t(!0)},5e3),v.jsxs(v.Fragment,{children:[e?v.jsx(e4,{children:"Nada mas satisfactorio que llevar una idea a la realidad"}):v.jsx(J3,{}),v.jsxs(Z3,{children:[v.jsx(q3,{src:E8,alt:"Developer Image face with blue background"}),v.jsx(X3,{children:v.jsxs("h1",{children:["Ya tienes la idea? ",v.jsx("br",{})," Yo tengo las herramientas para materializarla!"," "]})})]}),v.jsx(g4,{}),v.jsx(k8,{}),v.jsx(R8,{}),v.jsx(I8,{}),v.jsx($8,{})]})};function L8(){return v.jsx(v.Fragment,{children:v.jsx(_2,{children:v.jsxs(Yn,{path:"/",element:v.jsx(Q3,{}),children:[v.jsx(Yn,{path:"/Home",element:v.jsx(up,{})}),v.jsx(Yn,{path:"/AboutMe",element:v.jsx(N2,{})}),v.jsx(Yn,{path:"/ContactMe",element:v.jsx(Y3,{})}),v.jsx(Yn,{path:"*",element:v.jsx(up,{})})]})})})}ma.createRoot(document.getElementById("root")).render(v.jsx(In.StrictMode,{children:v.jsx(b2,{children:v.jsx(L8,{})})}));
+`,L8=()=>v.jsxs(b8,{children:[v.jsx(ha,{children:"Thank you"}),v.jsxs(M8,{children:[v.jsx(ha,{children:"for"}),v.jsx(I8,{children:"I wish you a pleasant day."})]}),v.jsx(ha,{children:"Your time!"})]}),up=()=>{const[e,t]=$.useState(!1);return setTimeout(()=>{t(!0)},5e3),v.jsxs(v.Fragment,{children:[e?v.jsx(e4,{children:"Nada mas satisfactorio que llevar una idea a la realidad"}):v.jsx(J3,{}),v.jsxs(Z3,{children:[v.jsx(q3,{src:_8,alt:"Developer Image face with blue background"}),v.jsx(X3,{children:v.jsxs("h1",{children:["Ya tienes la idea? ",v.jsx("br",{})," Yo tengo las herramientas para materializarla!"," "]})})]}),v.jsx(g4,{}),v.jsx(C8,{}),v.jsx(O8,{}),v.jsx(L8,{}),v.jsx(E8,{})]})};function N8(){return v.jsx(v.Fragment,{children:v.jsx(_2,{children:v.jsxs(Yn,{path:"/",element:v.jsx(Q3,{}),children:[v.jsx(Yn,{path:"/Home",element:v.jsx(up,{})}),v.jsx(Yn,{path:"/AboutMe",element:v.jsx(N2,{})}),v.jsx(Yn,{path:"/ContactMe",element:v.jsx(Y3,{})}),v.jsx(Yn,{path:"*",element:v.jsx(up,{})})]})})})}ma.createRoot(document.getElementById("root")).render(v.jsx(In.StrictMode,{children:v.jsx(b2,{children:v.jsx(N8,{})})}));
