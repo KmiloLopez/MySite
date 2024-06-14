@@ -45,6 +45,7 @@ const Projects = () => {
           numquam ipsam, corporis, totam quae itaque odit placeat cumque aliquid
           rem unde eum inventore, nisi asperiores libero! Et, at sequi.
         </StyledParragraph>
+        <img src="../../assets/images/projects/ice2.png" alt="dfasdf" />
 
         {dataprojects.map((item, index) => {
           return (
