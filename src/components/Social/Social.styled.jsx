@@ -17,6 +17,9 @@ export const SubContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media ${breakpoints.maxMobile} {
+    flex-direction: column;
+  }
 `;
 export const Sociallinks = styled.div`
   display: flex;
@@ -48,6 +51,10 @@ export const IMGStyle = styled.img`
 `;
 export const Mydiv = styled.div`
   width: 250px;
+  @media ${breakpoints.maxMobile} {
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const FinalBox = styled.a`
@@ -57,6 +64,9 @@ export const FinalBox = styled.a`
   width: 90%;
   border-radius: 18px;
   text-align: center;
+  @media ${breakpoints.maxMobile} {
+    height: 100px;
+  }
 `;
 export const DownloadText = styled.p`
   color: #a59f9f;
@@ -66,8 +76,6 @@ export const DownloadText = styled.p`
     color: white;
   }
   @media ${breakpoints.maxMobile} {
-    font-size: 70px;
-  }
-  @media ${breakpoints.tabletDimensions} {
+    font-size: 30px;
   }
 `;

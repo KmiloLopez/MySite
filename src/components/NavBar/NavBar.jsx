@@ -30,12 +30,11 @@ const NavBar = () => {
   }, [lastScrollY]);
   return (
     <NavContainer className={`${showNav ? "visible" : "hidden"}`}>
-      <Link to="/Home">HOME</Link>
       <Linkto href="#hero">Home</Linkto>
-      <Link to="/AboutMe">About Me</Link>
+
       <Linkto href="#skills">Skills</Linkto>
       <Linkto href="#projects">Experience</Linkto>
-      <Link to="/ContactMe">Contact Me</Link>
+      <Linkto href="#contact">Contact</Linkto>
     </NavContainer>
   );
 };

@@ -10,43 +10,53 @@ import {
   GitIconLink,
   IMGStyleGit,
   IMGStyleWebSite,
+  MyRelativeBox,
   SiteIconLink,
   Sitetext,
+  SocialCir,
+  SocialContainer,
 } from "./LinkToProject.Styled";
 
 const LinkToProject = ({ item }) => {
   return (
     <>
       <DirectLinksText>Direct links:</DirectLinksText>
-      <SocialMainContainer>
+      <SocialContainer>
         {item.codeLink && (
-          <SocialCircle>
-            <GitIconLink
-              href={item.codeLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IMGStyleGit />
-              <GITtext className="git-text">Let's see the code</GITtext>
-            </GitIconLink>
-          </SocialCircle>
+          <>
+            <MyRelativeBox>Let's see the code</MyRelativeBox>
+            <SocialCir>
+              <GitIconLink
+                href={item.codeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IMGStyleGit />
+                {/* <GITtext className="git-text">Let's see the code</GITtext> */}
+              </GitIconLink>
+            </SocialCir>
+          </>
         )}
 
         {item.siteLink && (
-          <SocialCircle>
-            <SiteIconLink
-              href={item.siteLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IMGStyleWebSite />
-              <Sitetext className="site-text">
-                Let's check how it looks
-              </Sitetext>
-            </SiteIconLink>
-          </SocialCircle>
+          <>
+            <SocialCir>
+              <SiteIconLink
+                href={item.siteLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IMGStyleWebSite />
+
+                {/* <Sitetext className="site-text">
+                  Let's check how it looks
+                </Sitetext> */}
+              </SiteIconLink>
+            </SocialCir>
+            <MyRelativeBox>Let's check how it looks</MyRelativeBox>
+          </>
         )}
-      </SocialMainContainer>
+      </SocialContainer>
     </>
   );
 };

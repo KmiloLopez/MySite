@@ -1,27 +1,31 @@
+//import ice2 from "../../images/projects/ice2.png";
+import ice2 from "./ice2.png";
+import ice2device from "../../images/projects/device/icephone.png";
+
+import calendor from "../../images/projects/Calendor.png";
+import calendordevice from "../../images/projects/device/CalendorDevice.png";
+import tictactop from "../../images/projects/tictactop.png";
+import tictactopdevice from "../../images/projects/device/tictactopdevice.png";
+
 export const dataprojects = [
   {
-    // import heroImage from "../../../assets/heroImage.png";
-    //https://kmilolopez.github.io/MySite/assets/heroImage-02ae8afe.png
     id: 1,
-    // imgURL:
-    //   "https://kmilolopez.github.io/MySite/assets/images/projects/ice2.png",
-    imgURL:
-      "https://github.com/KmiloLopez/MySite/blob/master/assets/images/projects/ice2.png",
-    //imgURL: "src/assets/images/projects/ice2.png",
+    imgURL: ice2,
     alt: "IceCream website homepage",
-    imgURLdevice: "src/assets/images/projects/device/icephone.png",
+    imgURLdevice: ice2device,
     altdevice: "IceCream website homepage on a cell phone device",
     title: "IceCream Landing Page",
     codeLink: "https://github.com/KmiloLopez/Proyect-IceCream",
     siteLink: "https://jorgemomo.github.io/iceCream/",
+    usedtechno: "HTML | CSS | SASS | BEM | TRELLO | GITHUB",
     descript:
-      "Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.Here you can find all the details related to this project.",
+      "HTML and SASS structure of the client section, ♠ JS library for the comments section, & structure, responsive and interactive buttons. ",
   },
   {
     id: 2,
-    imgURL: "src/assets/images/projects/Calendor.png",
+    imgURL: calendor,
     alt: "image showing different screens from app",
-    imgURLdevice: "src/assets/images/projects/device/CalendorDevice.png",
+    imgURLdevice: calendordevice,
     altdevice: "Calendor website homepage on a cell phone device",
     title: "Calendor Task Manager",
     codeLink: "https://github.com/KmiloLopez/Tasks-Calendar-Frontend",
@@ -31,19 +35,14 @@ export const dataprojects = [
   },
   {
     id: 3,
-    imgURL: "src/assets/images/projects/tictactop.png",
+    imgURL: tictactop,
     alt: "tictactoc homepage",
-    imgURLdevice: "src/assets/images/projects/device/tictactopdevice.png",
+    imgURLdevice: tictactopdevice,
     altdevice: "tictactoe website homepage on a cell phone device",
     title: "Super TIC-TAC-TOE",
     codeLink: "https://github.com/KmiloLopez/supertictactoe",
     siteLink: "https://kmilolopez.github.io/supertictactoe/",
     descript:
       "Super TIC-TAC-TOE was created to revive the classic game of TIC-TAC-TOE by adding new rules, including an innovative turn condition. I hope you find as much joy in this game as I did.",
-  },
-  {
-    id: 4,
-    imgURL: "src/assets/images/projects/materialui.png",
-    alt: "Illustrator logo mu",
   },
 ];

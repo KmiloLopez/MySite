@@ -46,6 +46,14 @@ export const ImgStyleDevice = styled.img`
   position: absolute;
   left: 250px;
   top: 100px;
+  @media ${breakpoints.maxMobile} {
+    left: 10px;
+    top: 60px;
+  }
+  @media ${breakpoints.tabletDimensions} {
+    left: 10px;
+    top: 60px;
+  }
 `;
 export const ProjectsMainContainer = styled.div`
   text-align: center;
@@ -99,6 +107,14 @@ export const ProjectTitle = styled.p`
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+  @media ${breakpoints.maxMobile} {
+    font-size: 1em;
+    top: -40px;
+  }
+  @media ${breakpoints.tabletDimensions} {
+    font-size: 1.5em;
+    top: 50px;
+  }
 `;
 
 export const AdditionalContainer = styled.div`
@@ -113,6 +129,10 @@ export const AdditionalContainer = styled.div`
   backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   width: 77%;
+  @media ${breakpoints.maxMobile} {
+    width: 100%;
+    padding: 25px 5px 0px 5px;
+  }
 `;
 export const AdInfoTitle = styled.div`
   font-size: 30px;
@@ -121,6 +141,14 @@ export const AdInfoTitle = styled.div`
 `;
 export const AdInfoDesc = styled.div`
   font-size: 18px;
+`;
+export const UsedTecho = styled.div`
+  font-size: 22px;
+  margin-bottom: 15px;
+  @media ${breakpoints.maxMobile} {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
 `;
 export const StyledCloseIcon = styled(KeyboardCapslockIcon)`
   position: absolute;
@@ -153,12 +181,12 @@ export const StyledParragraph = styled.h2`
 `;
 export const RelativeContainer = styled.div`
   position: relative;
-  width: 1500px;
+  width: 100%;
 
   @media ${breakpoints.maxMobile} {
-    width: 500px;
+    width: 95%;
   }
   @media ${breakpoints.tabletDimensions} {
-    width: 900px;
+    width: 100%;
   }
 `;

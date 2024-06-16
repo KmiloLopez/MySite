@@ -2,50 +2,48 @@ import React from "react";
 import {
   MySection,
   Mydiv,
+  Mydiv2,
   Myimg,
+  MythinkText,
   PhiloText,
+  Styledh2,
   TextConteinerBottom,
   TextConteinerTop,
 } from "./Philosophy.Styled";
-
+import philoso from "../../../src/assets/images/philosophy/thinkingmeleft.png";
+import pholosoright from "../../../src/assets/images/philosophy/thinkingmeright.png";
 const Philosophy = () => {
   return (
     <MySection>
-      <h2>CamiLoper Phylosophy</h2>
+      <Styledh2>Phylosophy</Styledh2>
+      {/* <h2>CamiLoper Phylosophy</h2> */}
 
       <PhiloText>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolorum
-        quisquam ullam laudantium eveniet voluptatem pariatur.
+        When I'm not in front of the PC, I'm either crafting something in the
+        home workshop, preparing a delicious recipe, or hanging out with my wife
+        and our two cats.
       </PhiloText>
       <Mydiv>
         <TextConteinerTop>
-          <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            dolorum quisquam ullam laudantium eveniet voluptatem pariatur
-            asperiores iste accusantium? Rerum ex cupiditate ullam repellat
-            nihil vel, veritatis quasi doloremque quas.
-          </h3>
+          <MythinkText>
+            " Whenever there's opportunity, investing effort into continuous
+            refinement yields valuable returns."
+          </MythinkText>
         </TextConteinerTop>
 
-        <Myimg
-          src="../../../src/assets/images/philosophy/thinkingmeleft.png"
-          alt="thinking man with thoughts behind"
-        />
+        <Myimg src={philoso} alt="thinking man with thoughts behind" />
       </Mydiv>
-      <Mydiv>
-        <Myimg
-          src="../../../src/assets/images/philosophy/thinkingmeright.png"
-          alt="thinking man with thoughts behind"
-        />
+
+      <Mydiv2>
+        <Myimg src={pholosoright} alt="thinking man with thoughts behind" />
         <TextConteinerBottom>
-          <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            dolorum quisquam ullam laudantium eveniet voluptatem pariatur
-            asperiores iste accusantium? Rerum ex cupiditate ullam repellat
-            nihil vel, veritatis quasi doloremque quas.
-          </h3>
+          <MythinkText>
+            "With the honesty that characterizes me, I am not afraid of feeling
+            lost in any area of knowledge; it serves as a window to new learning
+            opportunities."
+          </MythinkText>
         </TextConteinerBottom>
-      </Mydiv>
+      </Mydiv2>
     </MySection>
   );
 };

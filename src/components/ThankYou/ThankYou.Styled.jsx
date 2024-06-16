@@ -6,10 +6,11 @@ export const ThankYouContainer = styled.section`
   flex-direction: column;
 
   width: 80%;
-  margin: 0 auto;
+  margin: 200px auto;
   text-align: center;
   @media ${breakpoints.maxMobile} {
     width: 95%;
+    margin: 100px auto;
   }
   @media ${breakpoints.tabletDimensions} {
     width: 87%;
@@ -23,7 +24,7 @@ export const MyStiledText = styled.p`
   letter-spacing: 0.25em;
   word-spacing: 0.5em;
   @media ${breakpoints.maxMobile} {
-    font-size: 50px;
+    font-size: 40px;
   }
 `;
 

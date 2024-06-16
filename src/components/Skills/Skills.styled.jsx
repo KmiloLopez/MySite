@@ -23,6 +23,10 @@ export const BackgroundContainer = styled.div`
 `;
 export const H3 = styled.h3`
   margin-bottom: 20px;
+  font-size: 40px;
+  @media ${breakpoints.maxMobile} {
+    font-size: 27px;
+  }
 `;
 export const H5 = styled.h5`
   margin-bottom: 20px;
@@ -30,6 +34,22 @@ export const H5 = styled.h5`
 export const H4 = styled.h4`
   margin-bottom: 20px;
   text-align: center;
+  @media ${breakpoints.maxMobile} {
+    font-size: 16px;
+  }
+  @media ${breakpoints.tabletDimensions} {
+  }
+`;
+export const H4cursive = styled.h4`
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  @media ${breakpoints.maxMobile} {
+    font-size: 20px;
+  }
+  @media ${breakpoints.tabletDimensions} {
+  }
 `;
 export const StyledP = styled.p`
   margin-bottom: 20px;
@@ -38,6 +58,10 @@ export const StyledP = styled.p`
 export const MySkills = styled.p`
   margin-bottom: 5px;
   color: #222;
+
+  @media ${breakpoints.maxMobile} {
+    font-size: 16px;
+  }
 `;
 
 export const Box1 = styled.div`
@@ -45,7 +69,9 @@ export const Box1 = styled.div`
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 50px;
+  font-size: 2rem;
   @media ${breakpoints.maxMobile} {
+    font-size: 1.2rem;
     text-align: center;
   }
   @media ${breakpoints.tabletDimensions} {

@@ -7,6 +7,7 @@ import {
   CarouselContainer,
   H3,
   H4,
+  H4cursive,
   H5,
   ImgStyle,
   ItemsRow,
@@ -43,8 +44,12 @@ const Skills = () => {
       <SkillsMainContainer ref={carouselRef}>
         <section id="skills">
           <Box1>
-            <h2>Hi there, these are my SKILLS</h2>
+            <h2>Some of my SKILLS</h2>
           </Box1>
+          <H4cursive>
+            I spend my days (and often nights) painting the Internet canvas with
+            lines of code and framing PROJECTS.
+          </H4cursive>
           <Box2>
             <Box2Child>
               <DesignerIcon />

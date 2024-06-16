@@ -46,7 +46,7 @@ export const TextContent = styled.div`
   align-items: center;
   text-align: center;
   @media ${breakpoints.maxMobile} {
-    font-size: 20px;
+    font-size: 14px;
   }
   @media ${breakpoints.tabletDimensions} {
     font-size: 20px;
@@ -60,8 +60,9 @@ export const StyledH3 = styled.h3`
   width: 80%;
   margin: 0 auto;
   text-align: center;
+
   @media ${breakpoints.maxMobile} {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
   @media ${breakpoints.tabletDimensions} {

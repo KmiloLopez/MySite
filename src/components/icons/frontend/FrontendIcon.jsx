@@ -11,7 +11,6 @@ const FrontendIcon = () => {
       data-name="Layer 2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 180.79 180.32"
-      style={{ width: "200px", height: "200px" }}
     >
       <g id="Layer_1-2" data-name="Layer 1">
         <g>

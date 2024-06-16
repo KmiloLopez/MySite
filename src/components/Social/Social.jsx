@@ -9,13 +9,14 @@ import {
   SubContainer,
 } from "./Social.styled";
 import { datacontacts } from "../../../assets/images/contacts/datacontacts";
+import camicv from "../../assets/CAMIC.pdf";
 
 const Social = () => {
   return (
-    <SocialMainContainer>
+    <SocialMainContainer id="contact">
       <SubContainer>
         <Mydiv>
-          <h2>Contact me at: </h2>
+          <h2>Contact links: </h2>
         </Mydiv>
         <Sociallinks>
           {datacontacts.map((contact, index) => {
@@ -34,7 +35,7 @@ const Social = () => {
         </Sociallinks>
       </SubContainer>
 
-      <FinalBox href="../../assets/CAMIC.pdf" download>
+      <FinalBox href={camicv} download>
         <DownloadText>Download CV</DownloadText>
       </FinalBox>
     </SocialMainContainer>

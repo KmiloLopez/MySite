@@ -28,13 +28,12 @@ const Home = () => {
     <>
       {showMessage ? (
         <StyledH3>
-          Nada mas satisfactorio que llevar una idea a la realidad
+          Nothing is more satisfying than turning an idea into reality
         </StyledH3>
       ) : (
         <GhostBox />
       )}
       <HomeContainer>
-        {/* <Header> */}
         <Heroimg
           src={heroImage}
           alt="Developer Image face with blue background"
@@ -42,12 +41,15 @@ const Home = () => {
 
         <TextContent>
           <h1>
-            Ya tienes la idea? <br /> Yo tengo las herramientas para
-            materializarla!{" "}
+            Got the idea? <br /> I have the tools to bring it to life!
           </h1>
+          <StyledH3>
+            I am a full-stack web developer who enjoys crafting robust and
+            scalable applications with exceptional user experiences.
+          </StyledH3>
         </TextContent>
-        {/* </Header> */}
       </HomeContainer>
+      <StyledH3>▼</StyledH3>
 
       <Skills />
       <Projects />
