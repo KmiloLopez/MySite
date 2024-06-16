@@ -556,11 +556,15 @@ Error generating stack: `+i.message+`
   @media ${R.maxMobile} {
     width: 100%;
     padding: 25px 5px 0px 5px;
+    margin-bottom: 30px;
   }
 `,Mw=P.div`
   font-size: 30px;
   margin-bottom: 25px;
   color: var(--primary);
+  @media ${R.maxMobile} {
+    font-size: 25px;
+  }
 `,Iw=P.div`
   font-size: 18px;
 `,zw=P.div`
@@ -895,4 +899,4 @@ Error generating stack: `+i.message+`
   @media ${R.maxMobile} {
     font-size: 17px;
   }
-`,_8=()=>y.jsxs(k8,{children:[y.jsx(sa,{children:"Thank you"}),y.jsxs(C8,{children:[y.jsx(sa,{children:"for"}),y.jsx($8,{children:"I wish you a pleasant day."})]}),y.jsx(sa,{children:"Your time!"})]}),rp=()=>{const[e,t]=E.useState(!1);return setTimeout(()=>{t(!0)},5e3),y.jsxs(y.Fragment,{children:[e?y.jsx(Ys,{children:"Nothing is more satisfying than turning an idea into reality"}):y.jsx(b3,{}),y.jsxs(P3,{children:[y.jsx(j3,{src:f8,alt:"Developer Image face with blue background"}),y.jsxs(T3,{children:[y.jsxs("h1",{children:["Got the idea? ",y.jsx("br",{})," I have the tools to bring it to life!"]}),y.jsx(Ys,{children:"I am a full-stack web developer who enjoys crafting robust and scalable applications with exceptional user experiences."})]})]}),y.jsx(Ys,{children:"▼"}),y.jsx(G3,{}),y.jsx(s8,{}),y.jsx(S8,{}),y.jsx(_8,{}),y.jsx(c8,{})]})};function E8(){return y.jsx(y.Fragment,{children:y.jsx(c2,{children:y.jsxs(Gn,{path:"/",element:y.jsx(_3,{}),children:[y.jsx(Gn,{path:"/Home",element:y.jsx(rp,{})}),y.jsx(Gn,{path:"/AboutMe",element:y.jsx(p2,{})}),y.jsx(Gn,{path:"/ContactMe",element:y.jsx(E3,{})}),y.jsx(Gn,{path:"*",element:y.jsx(rp,{})})]})})})}aa.createRoot(document.getElementById("root")).render(y.jsx(On.StrictMode,{children:y.jsx(d2,{children:y.jsx(E8,{})})}));
+`,_8=()=>y.jsxs(k8,{children:[y.jsx(sa,{children:"Thank you"}),y.jsxs(C8,{children:[y.jsx(sa,{children:"for"}),y.jsx($8,{children:"I wish you a pleasant day."})]}),y.jsx(sa,{children:"Your time!"})]}),rp=()=>{const[e,t]=E.useState(!1);return setTimeout(()=>{t(!0)},5e3),y.jsxs(y.Fragment,{children:[e?y.jsx(Ys,{children:"Nothing is more satisfying than turning an idea into reality"}):y.jsx(b3,{}),y.jsxs(P3,{children:[y.jsx(j3,{src:f8,alt:"Developer Image face with blue background"}),y.jsxs(T3,{children:[y.jsxs("h1",{children:["Got the idea? ",y.jsx("br",{})," I have the tools to bring it to life!"]}),y.jsx(Ys,{children:"I'm Camilo Lopez, a full-stack web developer who enjoys coding robust and scalable applications with exceptional user experiences."})]})]}),y.jsx(Ys,{children:"▼"}),y.jsx(G3,{}),y.jsx(s8,{}),y.jsx(S8,{}),y.jsx(_8,{}),y.jsx(c8,{})]})};function E8(){return y.jsx(y.Fragment,{children:y.jsx(c2,{children:y.jsxs(Gn,{path:"/",element:y.jsx(_3,{}),children:[y.jsx(Gn,{path:"/Home",element:y.jsx(rp,{})}),y.jsx(Gn,{path:"/AboutMe",element:y.jsx(p2,{})}),y.jsx(Gn,{path:"/ContactMe",element:y.jsx(E3,{})}),y.jsx(Gn,{path:"*",element:y.jsx(rp,{})})]})})})}aa.createRoot(document.getElementById("root")).render(y.jsx(On.StrictMode,{children:y.jsx(d2,{children:y.jsx(E8,{})})}));
