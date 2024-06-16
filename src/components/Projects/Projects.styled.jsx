@@ -132,12 +132,16 @@ export const AdditionalContainer = styled.div`
   @media ${breakpoints.maxMobile} {
     width: 100%;
     padding: 25px 5px 0px 5px;
+    margin-bottom: 30px;
   }
 `;
 export const AdInfoTitle = styled.div`
   font-size: 30px;
   margin-bottom: 25px;
   color: var(--primary);
+  @media ${breakpoints.maxMobile} {
+    font-size: 25px;
+  }
 `;
 export const AdInfoDesc = styled.div`
   font-size: 18px;

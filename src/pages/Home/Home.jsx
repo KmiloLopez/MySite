@@ -44,8 +44,8 @@ const Home = () => {
             Got the idea? <br /> I have the tools to bring it to life!
           </h1>
           <StyledH3>
-            I am a full-stack web developer who enjoys crafting robust and
-            scalable applications with exceptional user experiences.
+            I'm Camilo Lopez, a full-stack web developer who enjoys coding
+            robust and scalable applications with exceptional user experiences.
           </StyledH3>
         </TextContent>
       </HomeContainer>
