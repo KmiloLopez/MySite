@@ -82,7 +82,7 @@ export const Box2 = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 120px;
+  gap: 12px;
   margin: 30px 0px;
   margin-bottom: 50px;
 
@@ -98,8 +98,9 @@ export const Box2Child = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  max-width: 600px;
+  border: 1px solid black;
+  max-width: 400px;
+  padding: 10px 10px 10px 10px;
 `;
 // CAJAS DONDE SE MUESTRAN LOGOS
 export const CarouselContainer = styled.div`
