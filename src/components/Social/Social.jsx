@@ -9,7 +9,7 @@ import {
   SubContainer,
 } from "./Social.styled";
 import { datacontacts } from "../../../assets/images/contacts/datacontacts";
-import camicv from "../../assets/CAMIC.pdf";
+import CamiloperCV from "../../assets/CamiloperCV.pdf";
 
 const Social = () => {
   return (
@@ -35,7 +35,7 @@ const Social = () => {
         </Sociallinks>
       </SubContainer>
 
-      <FinalBox href={camicv} download>
+      <FinalBox href={CamiloperCV} download>
         <DownloadText>Download CV</DownloadText>
       </FinalBox>
     </SocialMainContainer>

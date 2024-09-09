@@ -143,8 +143,11 @@ export const AdInfoTitle = styled.div`
     font-size: 25px;
   }
 `;
-export const AdInfoDesc = styled.div`
+export const AdInfoDesc = styled.p`
   font-size: 18px;
+`;
+export const Styledp = styled.p`
+  color: var(--primary);
 `;
 export const UsedTecho = styled.div`
   font-size: 22px;

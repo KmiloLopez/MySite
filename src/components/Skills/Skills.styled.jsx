@@ -99,6 +99,7 @@ export const Box2Child = styled.div`
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+  border-radius: 0.2rem;
   max-width: 400px;
   padding: 10px 10px 10px 10px;
 `;

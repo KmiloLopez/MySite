@@ -14,6 +14,7 @@ import {
   RelativeContainer,
   StyledCloseIcon,
   StyledParragraph,
+  Styledp,
   UsedTecho,
 } from "./Projects.styled";
 import LinkToProject from "../linksprojects/LinkToProject";
@@ -67,10 +68,12 @@ const Projects = () => {
               {selectedIndex === index && (
                 <AdditionalContainer>
                   <AdInfoTitle>{item.title}</AdInfoTitle>
-
+                  <AdInfoDesc>{item.descript}</AdInfoDesc>
+                  <Styledp>Main technologies used:</Styledp>
                   <UsedTecho>{item.usedtechno}</UsedTecho>
 
-                  <AdInfoDesc>{item.descript}</AdInfoDesc>
+                  <Styledp>Code Description in a Nutshell:</Styledp>
+                  <AdInfoDesc>{item?.descriptIndeep}</AdInfoDesc>
 
                   <StyledCloseIcon onClick={handleHideClick} />
 

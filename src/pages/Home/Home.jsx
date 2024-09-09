@@ -11,7 +11,7 @@ import {
 import Skills from "../../components/Skills/Skills";
 import Projects from "../../components/Projects/Projects";
 import Social from "../../components/Social/Social";
-import heroImage from "../../../assets/heroImage.png";
+import heroImage from "../../assets/heroImage.png";
 import { Psychology } from "@mui/icons-material";
 import Philosophy from "../../components/Philosophy/Philosophy";
 import ThankYou from "../../components/ThankYou/ThankYou";
