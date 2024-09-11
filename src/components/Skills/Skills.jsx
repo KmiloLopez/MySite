@@ -74,7 +74,7 @@ const Skills = () => {
               <StyledP>Developer Tools:</StyledP>
 
               <MySkills>Express</MySkills>
-              <MySkills>Node JS</MySkills>
+              <MySkills>Node JS and TypeScript</MySkills>
               <MySkills>Mongo DB</MySkills>
               <MySkills>Other Libraries</MySkills>
             </Box2Child>
@@ -87,7 +87,7 @@ const Skills = () => {
                 life in the browser.
               </H4>
               <StyledP>Developer Tools:</StyledP>
-              <MySkills>React JS</MySkills>
+              <MySkills>React JS and TypeScript</MySkills>
               <MySkills>Redux</MySkills>
               <MySkills>Styled Components</MySkills>
               <MySkills>Framer Motion</MySkills>
